@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-start justify-center min-h-screen my-10">
+    <div class="bg-white shadow-md rounded-lg overflow-hidden w-full max-w-4xl">
+        <div class="overflow-x-auto">
+            <table class="table-auto w-full border-collapse min-w-max">
+                <thead class="bg-blue-500 text-white">
+                    <tr>
+                        <th class="py-2 px-4 border-b">Kode 1</th>
+                        <th class="py-2 px-4 border-b">Kode 2</th>
+                        <th class="py-2 px-4 border-b">Name</th>
+                        <th class="py-2 px-4 border-b">Gender</th>
+                        <th class="py-2 px-4 border-b">Grade</th>
+                        <th class="py-2 px-4 border-b">Class</th>
+                        <th class="py-2 px-4 border-b">Old</th>
+                        <th class="py-2 px-4 border-b">NIK</th>
+                        <th class="py-2 px-4 border-b">Skill</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="loadStorage.js"></script>
+    <script src="generateTable.js"></script>
+    <script src="isiTable.js"></script>
+</body>
+</html>
